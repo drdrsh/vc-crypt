@@ -3,7 +3,9 @@
 This is a simple python script that can be used to encrypt/decrypt secret credentials (API secret keys, HTTP passwords, etc.) using a password to be able to safely put them under version control. It doesn't require building binaries, its only dependency is pyCrypto which is included in Anaconda python distribution, or can be installed manually using pip.
 
 # Why should you use this?
-It is very likely that other git encryption methods like git-crypt are better for you, I wrote this because I wanted a solution that works well on any platform (Specifically Windows) without having to download cumbersome build tools.
+Well, How should I put this? It is more probable that you shouldn't.
+
+It is very likely that other git encryption methods like git-crypt are better for you, I wrote this because I wanted a solution that works well on any platform (Specifically Windows) without having to download cumbersome build tools. Anyway, feel free to give it a spin.
 
 # Dependencies
 
