@@ -24,7 +24,7 @@ These are local override config files, any variable in these files will override
 
 ## To use this demo
 
-1. Checkout this repo ```git checkout https://github.com/drdrsh/vc-crypt.git``` 
+1. Clone this repo ```git clone https://github.com/drdrsh/vc-crypt.git``` 
 2. Run ```python cred.py decrypt``` and use password ```dummy_password```.
 3. Run ```python cred.py concat``` to generate ```.env``` file.
 
