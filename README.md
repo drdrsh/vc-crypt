@@ -37,5 +37,8 @@ To modify secret params, edit your `env.secret` and run ```python cred.py encryp
 - To generate .env file run ```python cred.py concat```
 - To decrypt  encrypted credentials run ```python cred.py decrypt``` and you will be prompted to enter the password, alternatively you can specify the password in the command line by passing arguments ```--password your_password``` but this will cause the password to appear in shell history.
 
+# Word of caution
+This tool attempts to replicate some functionality offered by tools like git-crypt or blackbox with as little dependnacies as possible, it doesn't address the problem of configuration being in plain text on the server or in-memory and as far as I know, these problems are not addressed by git-crypt or blackbox either. If this is a concern to you, look into more secure solution.
+
 # License
 MIT
